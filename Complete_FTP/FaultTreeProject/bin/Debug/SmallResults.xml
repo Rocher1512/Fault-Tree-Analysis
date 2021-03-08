@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<HiP-HOPS_Results build="Internal" majorVersion="2" minorVersion="5" version="891" versionDate="01 August 2016">
+  <FaultTrees>
+    <FMEA>
+      <Component>
+        <Name>Hardware::PP1</Name>
+        <Events>
+          <BasicEvent ID="724">
+            <Name>Hardware::PP1.A</Name>
+            <ShortName>A</ShortName>
+            <Description></Description>
+            <Unavailability>0</Unavailability>
+            <Effects>
+              <Effect ID="9411">
+                <Name>Penguin</Name>
+                <SinglePointFailure>true</SinglePointFailure>
+              </Effect>
+              <Effect ID="9413">
+                <Name>Porpoise</Name>
+                <SinglePointFailure>true</SinglePointFailure>
+              </Effect>
+              <Effect ID="9405">
+                <Name>Badger</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9407">
+                <Name>Flamingo</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9409">
+                <Name>Ocelot</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+            </Effects>
+          </BasicEvent>
+          <BasicEvent ID="725">
+            <Name>Hardware::PP1.B</Name>
+            <ShortName>B</ShortName>
+            <Description></Description>
+            <Unavailability>0</Unavailability>
+            <Effects>
+              <Effect ID="9411">
+                <Name>Penguin</Name>
+                <SinglePointFailure>true</SinglePointFailure>
+              </Effect>
+              <Effect ID="9413">
+                <Name>Porpoise</Name>
+                <SinglePointFailure>true</SinglePointFailure>
+              </Effect>
+              <Effect ID="9405">
+                <Name>Badger</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9407">
+                <Name>Flamingo</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9409">
+                <Name>Ocelot</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+            </Effects>
+          </BasicEvent>
+          <BasicEvent ID="726">
+            <Name>Hardware::PP1.C</Name>
+            <ShortName>C</ShortName>
+            <Description></Description>
+            <Unavailability>0</Unavailability>
+            <Effects>
+              <Effect ID="9405">
+                <Name>Badger</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9407">
+                <Name>Flamingo</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9409">
+                <Name>Ocelot</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9413">
+                <Name>Porpoise</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+            </Effects>
+          </BasicEvent>
+          <BasicEvent ID="727">
+            <Name>Hardware::PP1.D</Name>
+            <ShortName>D</ShortName>
+            <Description></Description>
+            <Unavailability>0</Unavailability>
+            <Effects>
+              <Effect ID="9411">
+                <Name>Penguin</Name>
+                <SinglePointFailure>true</SinglePointFailure>
+              </Effect>
+              <Effect ID="9405">
+                <Name>Badger</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9409">
+                <Name>Ocelot</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9413">
+                <Name>Porpoise</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+            </Effects>
+          </BasicEvent>
+          <BasicEvent ID="728">
+            <Name>Hardware::PP1.E</Name>
+            <ShortName>E</ShortName>
+            <Description></Description>
+            <Unavailability>0</Unavailability>
+            <Effects>
+              <Effect ID="9405">
+                <Name>Badger</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9409">
+                <Name>Ocelot</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+            </Effects>
+          </BasicEvent>
+          <BasicEvent ID="729">
+            <Name>Hardware::PP1.F</Name>
+            <ShortName>F</ShortName>
+            <Description></Description>
+            <Unavailability>0</Unavailability>
+            <Effects>
+              <Effect ID="9405">
+                <Name>Badger</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9409">
+                <Name>Ocelot</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+            </Effects>
+          </BasicEvent>
+          <BasicEvent ID="730">
+            <Name>Hardware::PP1.G</Name>
+            <ShortName>G</ShortName>
+            <Description></Description>
+            <Unavailability>0</Unavailability>
+            <Effects>
+              <Effect ID="9405">
+                <Name>Badger</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9409">
+                <Name>Ocelot</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+            </Effects>
+          </BasicEvent>
+          <BasicEvent ID="731">
+            <Name>Hardware::PP1.H</Name>
+            <ShortName>H</ShortName>
+            <Description></Description>
+            <Unavailability>0</Unavailability>
+            <Effects>
+              <Effect ID="9405">
+                <Name>Badger</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+              <Effect ID="9409">
+                <Name>Ocelot</Name>
+                <SinglePointFailure>false</SinglePointFailure>
+              </Effect>
+            </Effects>
+          </BasicEvent>
+        </Events>
+        <SID>nytt60_PP_1384</SID>
+      </Component>
+   
+    </FMEA>
+    <FaultTree ID="9405">
+      <Name>Badger</Name>
+      <Description></Description>
+      <SIL>0</SIL>
+      <Unavailability>0</Unavailability>
+      <UnavailabilitySort>0.0</UnavailabilitySort>
+      <Severity>0</Severity>
+      <TopNode>
+        <Or ID="9405">
+          <Name>Badger</Name>
+          <Children>
+            <And ID="8987">
+              <Name>AND [Badger-Hardware::PP1.Out1]</Name>
+              <Children>
+                <Or ID="9001">
+                  <Name>OR [Badger-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="724" />
+                    <Event ID="725" />
+                    <Event ID="726" />
+                  </Children>
+                </Or>
+                <Or ID="8991">
+                  <Name>OR [Badger-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="727" />
+                    <Event ID="728" />
+                    <Event ID="725" />
+                  </Children>
+                </Or>
+                <Or ID="8996">
+                  <Name>OR [Badger-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="729" />
+                    <Event ID="730" />
+                    <Event ID="731" />
+                  </Children>
+                </Or>
+              </Children>
+            </And>
+          </Children>
+        </Or>
+      </TopNode>
+      <CutSetsSummary>
+        <CutSets order="2" pruned="false">3</CutSets>
+        <CutSets order="3" pruned="false">12</CutSets>
+      </CutSetsSummary>
+      <AllCutSets>
+        <CutSets order="1"></CutSets>
+        <CutSets order="2">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="725" />
+              <Event ID="729" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="725" />
+              <Event ID="730" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="725" />
+              <Event ID="731" />
+            </Events>
+          </CutSet>
+        </CutSets>
+        <CutSets order="3">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="727" />
+              <Event ID="729" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="727" />
+              <Event ID="730" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="728" />
+              <Event ID="729" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="727" />
+              <Event ID="731" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="728" />
+              <Event ID="730" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="728" />
+              <Event ID="731" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="726" />
+              <Event ID="727" />
+              <Event ID="729" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="726" />
+              <Event ID="727" />
+              <Event ID="730" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="726" />
+              <Event ID="728" />
+              <Event ID="729" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="726" />
+              <Event ID="727" />
+              <Event ID="731" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="726" />
+              <Event ID="728" />
+              <Event ID="730" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="726" />
+              <Event ID="728" />
+              <Event ID="731" />
+            </Events>
+          </CutSet>
+        </CutSets>
+      </AllCutSets>
+    </FaultTree>
+    <FaultTree ID="9407">
+      <Name>Flamingo</Name>
+      <Description></Description>
+      <SIL>0</SIL>
+      <Unavailability>0</Unavailability>
+      <UnavailabilitySort>0.0</UnavailabilitySort>
+      <Severity>0</Severity>
+      <TopNode>
+        <Or ID="9407">
+          <Name>Flamingo</Name>
+          <Children>
+            <And ID="9006">
+              <Name>AND [Flamingo-Hardware::PP1.Out1]</Name>
+              <Children>
+                <Event ID="724" />
+                <Or ID="9008">
+                  <Name>OR [Flamingo-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="725" />
+                    <Event ID="726" />
+                  </Children>
+                </Or>
+              </Children>
+            </And>
+          </Children>
+        </Or>
+      </TopNode>
+      <CutSetsSummary>
+        <CutSets order="2" pruned="false">2</CutSets>
+      </CutSetsSummary>
+      <AllCutSets>
+        <CutSets order="1"></CutSets>
+        <CutSets order="2">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="725" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="726" />
+            </Events>
+          </CutSet>
+        </CutSets>
+      </AllCutSets>
+    </FaultTree>
+    <FaultTree ID="9409">
+      <Name>Ocelot</Name>
+      <Description></Description>
+      <SIL>0</SIL>
+      <Unavailability>0</Unavailability>
+      <UnavailabilitySort>0.0</UnavailabilitySort>
+      <Severity>0</Severity>
+      <TopNode>
+        <Or ID="9409">
+          <Name>Ocelot</Name>
+          <Children>
+            <And ID="9011">
+              <Name>AND [Ocelot-Hardware::PP1.Out1]</Name>
+              <Children>
+                <Or ID="9017">
+                  <Name>OR [Ocelot-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="728" />
+                    <Event ID="725" />
+                    <And ID="9019">
+                      <Name>AND [Ocelot-Hardware::PP1.Out1]</Name>
+                      <Children>
+                        <Event ID="727" />
+                        <Or ID="9021">
+                          <Name>OR [Ocelot-Hardware::PP1.Out1]</Name>
+                          <Children>
+                            <Event ID="730" />
+                            <Event ID="726" />
+                            <Event ID="729" />
+                          </Children>
+                        </Or>
+                      </Children>
+                    </And>
+                  </Children>
+                </Or>
+                <Event ID="724" />
+                <Or ID="9015">
+                  <Name>OR [Ocelot-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="726" />
+                    <Event ID="731" />
+                    <Event ID="725" />
+                  </Children>
+                </Or>
+              </Children>
+            </And>
+          </Children>
+        </Or>
+      </TopNode>
+      <CutSetsSummary>
+        <CutSets order="2" pruned="false">1</CutSets>
+        <CutSets order="3" pruned="false">3</CutSets>
+        <CutSets order="4" pruned="false">2</CutSets>
+      </CutSetsSummary>
+      <AllCutSets>
+        <CutSets order="1"></CutSets>
+        <CutSets order="2">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="725" />
+            </Events>
+          </CutSet>
+        </CutSets>
+        <CutSets order="3">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="726" />
+              <Event ID="727" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="726" />
+              <Event ID="728" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="728" />
+              <Event ID="731" />
+            </Events>
+          </CutSet>
+        </CutSets>
+        <CutSets order="4">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="727" />
+              <Event ID="729" />
+              <Event ID="731" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+              <Event ID="727" />
+              <Event ID="730" />
+              <Event ID="731" />
+            </Events>
+          </CutSet>
+        </CutSets>
+      </AllCutSets>
+    </FaultTree>
+    <FaultTree ID="9411">
+      <Name>Penguin</Name>
+      <Description></Description>
+      <SIL>0</SIL>
+      <Unavailability>0</Unavailability>
+      <UnavailabilitySort>0.0</UnavailabilitySort>
+      <Severity>0</Severity>
+      <TopNode>
+        <Or ID="9411">
+          <Name>Penguin</Name>
+          <Children>
+            <Event ID="727" />
+            <And ID="9026">
+              <Name>AND [Penguin-Hardware::PP1.Out1]</Name>
+              <Children>
+                <Or ID="9028">
+                  <Name>OR [Penguin-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="725" />
+                    <Event ID="724" />
+                    <And ID="9032">
+                      <Name>AND [Penguin-Hardware::PP1.Out1]</Name>
+                      <Children>
+                        <Event ID="726" />
+                        <Event ID="725" />
+                        <Event ID="728" />
+                      </Children>
+                    </And>
+                  </Children>
+                </Or>
+                <Or ID="9036">
+                  <Name>OR [Penguin-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="729" />
+                    <Event ID="725" />
+                    <Event ID="724" />
+                    <And ID="9042">
+                      <Name>AND [Penguin-Hardware::PP1.Out1]</Name>
+                      <Children>
+                        <Event ID="726" />
+                        <Event ID="728" />
+                      </Children>
+                    </And>
+                  </Children>
+                </Or>
+              </Children>
+            </And>
+          </Children>
+        </Or>
+      </TopNode>
+      <CutSetsSummary>
+        <CutSets order="1" pruned="false">3</CutSets>
+      </CutSetsSummary>
+      <AllCutSets>
+        <CutSets order="1">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="725" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="727" />
+            </Events>
+          </CutSet>
+        </CutSets>
+      </AllCutSets>
+    </FaultTree>
+    <FaultTree ID="9413">
+      <Name>Porpoise</Name>
+      <Description></Description>
+      <SIL>0</SIL>
+      <Unavailability>0</Unavailability>
+      <UnavailabilitySort>0.0</UnavailabilitySort>
+      <Severity>0</Severity>
+      <TopNode>
+        <Or ID="9413">
+          <Name>Porpoise</Name>
+          <Children>
+            <Event ID="724" />
+            <And ID="9047">
+              <Name>AND [Porpoise-Hardware::PP1.Out1]</Name>
+              <Children>
+                <Or ID="9049">
+                  <Name>OR [Porpoise-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="725" />
+                    <Event ID="726" />
+                  </Children>
+                </Or>
+                <Or ID="9051">
+                  <Name>OR [Porpoise-Hardware::PP1.Out1]</Name>
+                  <Children>
+                    <Event ID="725" />
+                    <Event ID="727" />
+                  </Children>
+                </Or>
+              </Children>
+            </And>
+          </Children>
+        </Or>
+      </TopNode>
+      <CutSetsSummary>
+        <CutSets order="1" pruned="false">2</CutSets>
+        <CutSets order="2" pruned="false">1</CutSets>
+      </CutSetsSummary>
+      <AllCutSets>
+        <CutSets order="1">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="724" />
+            </Events>
+          </CutSet>
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="725" />
+            </Events>
+          </CutSet>
+        </CutSets>
+        <CutSets order="2">
+          <CutSet>
+            <Unavailability>0</Unavailability>
+            <UnavailabilitySort>0.0</UnavailabilitySort>
+            <Events>
+              <Event ID="726" />
+              <Event ID="727" />
+            </Events>
+          </CutSet>
+        </CutSets>
+      </AllCutSets>
+    </FaultTree>
+  </FaultTrees>
+</HiP-HOPS_Results>
